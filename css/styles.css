@@ -8553,6 +8553,9 @@ object .bubble {
 h1, .h1 {
   font-weight: 600; }
 
+header {
+  margin-bottom: 85px; }
+
 .main {
   min-height: 100vh; }
 
