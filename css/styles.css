@@ -8630,6 +8630,10 @@ h1, .h1 {
   .contact-image {
     display: none; } }
 
+@media (max-width: 369px) {
+  .main__info {
+    padding: 1rem; } }
+
 .footer-section {
   background-color: #764CA4;
   color: #e8e7ff; }
