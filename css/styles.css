@@ -8665,6 +8665,24 @@ h1, .h1 {
     background-color: #764CA4 !important;
     border-color: #764CA4 !important; }
 
+.check-custom:checked {
+  background-color: #FF3484;
+  border-color: #FF3484; }
+
+.check-custom:focus {
+  border-color: #FF3484;
+  box-shadow: 0 0 0 0.25rem rgba(255, 52, 132, 0.25);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FF3484'/%3e%3c/svg%3e") !important; }
+
+.check-custom--abt:checked {
+  background-color: #FF3484;
+  border-color: #FF3484; }
+
+.check-custom--abt:focus {
+  border-color: #FF3484;
+  box-shadow: 0 0 0 0.25rem rgba(255, 52, 132, 0.25);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23FF3484'/%3e%3c/svg%3e"); }
+
 .nav-custom {
   text-decoration: underline 0.15em rgba(131, 129, 255, 0);
   text-underline-offset: 0.1em;
