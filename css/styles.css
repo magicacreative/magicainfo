@@ -8597,7 +8597,10 @@ h1, .h1 {
 
 #nuestros-planes,
 #plans {
-  max-width: 1619px; }
+  max-width: 1619px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .contact {
   background: #c1c0ff;
