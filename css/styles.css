@@ -8595,6 +8595,10 @@ h1, .h1 {
     background-color: #c1c0ff;
     height: 100vh; } }
 
+#nuestros-planes,
+#plans {
+  max-width: 1619px; }
+
 .contact {
   background: #c1c0ff;
   background: linear-gradient(180deg, #c1c0ff 0%, #764ca4 100%);
