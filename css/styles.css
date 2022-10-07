@@ -8553,6 +8553,9 @@ object .bubble {
 h1, .h1 {
   font-weight: 600; }
 
+html {
+  scroll-padding-top: 150px; }
+
 .main {
   min-height: 100vh;
   margin-top: 85px; }
@@ -8599,8 +8602,7 @@ h1, .h1 {
 #plans {
   max-width: 1619px;
   margin-right: auto;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
 .contact {
   background: #c1c0ff;
@@ -8656,6 +8658,18 @@ h1, .h1 {
   background: #c1c0ff;
   background: linear-gradient(180deg, #c1c0ff 0%, #8381ff 65%, #764ca4 100%); }
 
+/* #nuestros-planes::before,
+#plans::before,
+#que-hacemos::before,
+#services::before,
+#contactanos::before,
+#contact-us::before {
+  content: "";
+  height: 85px;
+  margin-top: -85px;
+  vertical-align: top;
+  visibility: hidden;
+} */
 .btn-primary-magica {
   background-color: #8381FF;
   border-color: #8381FF;
