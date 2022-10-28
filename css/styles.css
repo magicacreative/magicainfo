@@ -8579,6 +8579,9 @@ body {
   position: absolute;
   bottom: 0; }
 
+.info-index {
+  z-index: 2; }
+
 @media (max-width: 992px) {
   .main__image {
     background-size: cover;
@@ -8590,7 +8593,8 @@ body {
 
 @media (max-width: 992px) and (max-width: 594px) {
   .second-section {
-    background-color: #c1c0ff; }
+    background: #c1c0ff;
+    background: linear-gradient(0deg, #c1c0ff 0%, #8381ff 300%); }
   .bubble-bg {
     display: none; } }
 
@@ -8598,7 +8602,8 @@ body {
   #spellbook {
     display: none; }
   .second-section {
-    background-color: #c1c0ff;
+    background: #c1c0ff;
+    background: linear-gradient(0deg, #c1c0ff 0%, #8381ff 300%);
     height: 100vh; } }
 
 #nuestros-planes,
@@ -8711,7 +8716,8 @@ body {
 .card-bg-magica {
   background-color: #e8e7ff;
   border: none;
-  border-radius: 1rem; }
+  border-radius: 1rem;
+  height: 100%; }
 
 .card-img-magica {
   border-top-left-radius: 1rem;
@@ -8723,6 +8729,13 @@ body {
   list-style: none;
   margin: 0;
   vertical-align: middle; }
+
+.card-title-magica {
+  font-weight: 600; }
+
+.btn-bottom {
+  position: absolute;
+  bottom: 2rem; }
 
 .contact-link {
   text-decoration: none;
